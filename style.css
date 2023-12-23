@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Sora:wght@400;600&display=swap');
+body {
+    background: #FFFFFF;
+}
+
+
+header {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    gap: 60px;
+}
+
+.cabecalho__link {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    color: #6E7275;
+}
+
+.c-primario {
+    background-color: #EFF8FF;
+    width: 100%;
+    height: 35rem; 
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout1 {
+    border: solid;
+    padding: 100px;
+    width: 600px;
+}
+
+.layout2 {
+    border: solid;
+}
+
+.c-primario__titulo {
+    font-family: Sora;
+font-size: 48px;
+font-weight: 600;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+
+}
