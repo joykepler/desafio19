@@ -32,6 +32,10 @@ nav {
     color: #6E7275;
 }
 
+.cabecalho__link:hover {
+    color: blue;
+}
+
 .c-primario {
     background-color: #EFF8FF;
     width: 100%;
