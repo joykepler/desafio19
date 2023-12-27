@@ -319,6 +319,8 @@ nav {
     letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .c-contato__paragrafo {
@@ -334,7 +336,7 @@ nav {
 .email {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .c-contato__input {
@@ -342,12 +344,17 @@ nav {
     background-color: transparent;
     width: 300px;
     box-shadow: 0 0 0 0;
-    border: 0 none;
     outline: 0;
 }
 
 .c-contato__input::placeholder {
     color: #FFFFFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;    
   }
 
 .c-contato__botao {
