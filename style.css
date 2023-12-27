@@ -195,7 +195,7 @@ nav {
     height: 471px;
     background: #293145;
     border-radius: 8px;
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 .card-terciario {
@@ -225,6 +225,7 @@ nav {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 
 .card__paragrafo {
     font-family: Inter;
@@ -260,6 +261,20 @@ nav {
     color: #FFFFFF;
 }
 
+.preferido {
+    width: 164px;
+    height: 27px;
+    padding: 5px 32px 5px 32px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background-color: #0F9AFE;
+    font-family: Inter;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
 .card__titulo-secundario-prata {
     font-family: Roboto;
     font-size: 50px;
@@ -283,19 +298,6 @@ nav {
     text-align: center;
     margin-left: 40px;
 }  
-
-.preferido {
-    width: 164px;
-    height: 27px;
-    padding: 5px 32px 5px 32px;
-    border-radius: 15px;
-    color: #FFFFFF;
-    background-color: #0F9AFE;
-    font-family: Inter;
-    font-size: 14px;
-    letter-spacing: 0.2em;
-    margin-left: 100px;
-}
 
 .c-contato {
     width: auto;
