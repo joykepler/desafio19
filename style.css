@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Sora:wght@400;600&display=swap');
+
 body {
     background: #FFFFFF;
 }
@@ -146,4 +147,174 @@ nav {
 
 #appstore {
     margin-left: 20px;
+}
+
+.c-quarternario {
+    width: auto;
+    height: 50rem;
+    padding-top: 70px;
+}
+
+.c-quarternario__titulo {
+    font-family: Sora;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-align: center;
+}
+
+.c-quarternario__paragrafo {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;    
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.card-primario {
+    width: 370px;
+    height: 471px;
+    background: #EFF8FF;
+    border-radius: 8px;
+    padding-top: 60px;
+}
+
+.card-secundario {
+    width: 370px;
+    height: 471px;
+    background: #293145;
+    border-radius: 8px;
+    padding-top: 60px;
+}
+
+.card-terciario {
+    width: 370px;
+    height: 471px;
+    background: #EFF8FF;
+    border-radius: 8px;
+    padding-top: 60px;
+}
+
+.card__titulo {
+    font-family: Sora;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.card__titulo-secundario {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card__paragrafo {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: #6E7275;
+    max-width: 300px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.card__botao {
+   background: #0F9AFE;
+   color: #FFFFFF;
+   border: none;
+   border-radius: 50px;
+   width: 230px;
+   height: 43px;
+   box-shadow: 1px 3px 4px 0px #137DE080;
+   margin-top: 70px;
+   margin-left: 65px;
+}
+
+.card__titulo-prata {
+    font-family: Sora;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card__titulo-secundario-prata {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #FFFFFF; 
+}
+
+.card__paragrafo-prata {
+    color: #DBDBDB;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    max-width: 300px;
+    text-align: center;
+    margin-left: 40px;
+}  
+
+.preferido {
+    width: 164px;
+    height: 27px;
+    padding: 5px 32px 5px 32px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background-color: #0F9AFE;
+    font-family: Inter;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    margin-left: 100px;
+}
+
+.c-contato {
+    width: auto;
+    height: 382px;
+    background-image: url(img/unsplash_psGV5KhidlY.svg);
+}
+
+footer {
+    width: auto;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-titulo {
+    font-family: Sora;
+    font-size: 20px;
+    font-weight: 400;   
+    line-height: 25px;
+    letter-spacing: 0em;
 }
