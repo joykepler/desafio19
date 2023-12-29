@@ -173,7 +173,7 @@ nav {
     letter-spacing: 0em;    
     text-align: center;
     margin-top: 20px;
-}
+} 
 
 .cards {
     display: flex;
@@ -187,7 +187,11 @@ nav {
     height: 471px;
     background: #EFF8FF;
     border-radius: 8px;
-    padding-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .card-secundario {
@@ -195,7 +199,11 @@ nav {
     height: 471px;
     background: #293145;
     border-radius: 8px;
-    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .card-terciario {
@@ -203,7 +211,11 @@ nav {
     height: 471px;
     background: #EFF8FF;
     border-radius: 8px;
-    padding-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .card__titulo {
@@ -222,8 +234,6 @@ nav {
     line-height: 59px;
     letter-spacing: 0em;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 
@@ -236,7 +246,6 @@ nav {
     color: #6E7275;
     max-width: 300px;
     text-align: center;
-    margin-left: 40px;
 }
 
 .card__botao {
@@ -247,8 +256,11 @@ nav {
    width: 230px;
    height: 43px;
    box-shadow: 1px 3px 4px 0px #137DE080;
-   margin-top: 70px;
-   margin-left: 65px;
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 27px;
+   letter-spacing: 0em;
 }
 
 .card__titulo-prata {
@@ -262,18 +274,15 @@ nav {
 }
 
 .preferido {
-    width: 164px;
-    height: 27px;
-    padding: 5px 32px 5px 32px;
     border-radius: 15px;
     color: #FFFFFF;
     background-color: #0F9AFE;
     font-family: Inter;
     font-size: 14px;
     letter-spacing: 0.2em;
-    margin-left: 100px;
-    margin-top: 30px;
-}
+    text-align: center;
+    padding: 5px;
+} 
 
 .card__titulo-secundario-prata {
     font-family: Roboto;
@@ -282,9 +291,8 @@ nav {
     line-height: 59px;
     letter-spacing: 0em;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
     color: #FFFFFF; 
+    padding-bottom: 10px;
 }
 
 .card__paragrafo-prata {
@@ -296,19 +304,36 @@ nav {
     letter-spacing: 0em;
     max-width: 300px;
     text-align: center;
-    margin-left: 40px;
+    padding-bottom: 30px;
 }  
+
+.card__botao-prata {
+    background: #0F9AFE;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    width: 230px;
+    height: 43px;
+    box-shadow: 1px 3px 4px 0px #137DE080;
+    margin-bottom: 25px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
 
 .c-contato {
     width: auto;
     height: 382px;
     background-image: url(img/unsplash_psGV5KhidlY.svg);
+    background-repeat: no-repeat;
 }
 
 .transparencia {
     width: auto;
     height: 382px;
-    background: linear-gradient(to right, rgba(33, 34, 55, 0.833), rgba(55, 61, 82, 0.393));
+    background: linear-gradient(to right, rgba(33, 34, 55, 0.833), rgba(55, 61, 82, 0.393)); */
 }
 
 .c-contato__titulo {
@@ -340,11 +365,18 @@ nav {
 }
 
 .c-contato__input {
+    color: #FFFFFF;
     border: none;
     background-color: transparent;
     width: 300px;
     box-shadow: 0 0 0 0;
     outline: 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;    
 }
 
 .c-contato__input::placeholder {
@@ -381,4 +413,4 @@ footer {
     font-weight: 400;   
     line-height: 25px;
     letter-spacing: 0em;
-}
+} 
