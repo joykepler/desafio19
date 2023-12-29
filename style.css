@@ -327,13 +327,13 @@ nav {
     width: auto;
     height: 382px;
     background-image: url(img/unsplash_psGV5KhidlY.svg);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 }
 
 .transparencia {
     width: auto;
     height: 382px;
-    background: linear-gradient(to right, rgba(33, 34, 55, 0.833), rgba(55, 61, 82, 0.393)); */
+    background: linear-gradient(to right, rgba(16, 27, 51, 0.445), rgba(16, 27, 51, 0.445)); */
 }
 
 .c-contato__titulo {
@@ -388,7 +388,7 @@ nav {
     letter-spacing: 0em;
     text-align: left;    
   }
-
+  
 .c-contato__botao {
     width: 118px;
     height: 38px;
